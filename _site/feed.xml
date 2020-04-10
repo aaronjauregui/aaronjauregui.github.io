@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Aaron Jauregui</title>
+		<description>Blog and website of Aaron Jauregui. A place to showcase achievements, projects, ramblings and anything else. Opionions? What's that?</description>
+		<link>https://le4ker.github.io</link>
+		<atom:link href="https://le4ker.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Welcome</title>
+				
+				
+					<description>&lt;p&gt;I guess no personal blog is complete without a post welcoming he who is bored or curious enough to stumble upon it. Not wanting to seem rude or unwelcoming, here is my attempt at it.&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 10 Apr 2020 00:00:00 +1000</pubDate>
+				<link>https://le4ker.github.io/misc/2020/04/10/Welcome.html</link>
+				<guid isPermaLink="true">https://le4ker.github.io/misc/2020/04/10/Welcome.html</guid>
+			</item>
+		
+	</channel>
+</rss>
