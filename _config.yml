@@ -39,7 +39,7 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: ""
 
 background-img: "../img/silhouette-4897049_1920shorter.png"
 
@@ -48,15 +48,17 @@ background-img: "../img/silhouette-4897049_1920shorter.png"
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
+shuffle: False # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Scientists say that human beings are made of atoms, but a little bird told me that we are also made of stories.     -Galeano"
+  - text: "Is there anything more conceited than putting quotes on the cover of your website?"
+  - text: "I'm a big fan of tacos :)"
+  - text: "Why should we live with such hurry and waste our life? We are determined to be starved before we are hungry.      -Thoreau, Walden"
 
 me-img: "/img/cover.png"
 
@@ -109,7 +111,7 @@ enable-gesture-navigation: True
 
 post-preview-words: 96
 
-paginate: 5
+paginate: 6
 
 email-share: True
 fb-share: True
@@ -131,22 +133,28 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/cecs_logo.png"
+    date: "2020 - Today"
+    description: "Academic Tutor at the ANU"
+  - image: "/img/cecs_logo.png"
+    date: "2019 - Today"
+    description: "Student Ambassador for CECS"
+  - image: "/img/anu_logo.png"
+    date: "2018 - Today"
+    description: "Started studying at the ANU"
+  - image: "/img/mx.png"
+    date: "1999"
+    description: "Born in Mexico"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/author.png"
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "contact@aaronj.dev"
 
 ################
 # Author Blurb #
@@ -177,7 +185,7 @@ social:
 # 404 page #
 ############
 
-err-404-img: "/img/atfield.jpg"
+err-404-img: "/img/jython.jpg"
 
 ##################
 # GPG on Keybase #
@@ -211,6 +219,9 @@ paginate_path: "blog/page:num/"
 
 sass:
   style: compressed
+
+
+plugins: [jekyll-paginate]
 
 gems:
   - jekyll-paginate
